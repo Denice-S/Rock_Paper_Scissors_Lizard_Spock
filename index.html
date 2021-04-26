@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+
+  <title>Rock, Paper, Scissors, Lizard, Spock</title>
+
+</head>
+
+<body>
+
+  <section class="score-panel">
+    <div class="actions">
+      <span>Rock</span>
+      <span>Paper</span>
+      <span>Scissors</span>
+      <span>Lizard</span>
+      <span>Spock</span>
+    </div>
+
+    <div class="score">
+      <h3>SCORES</h3>
+      <div class=scoreResults>
+        <h4 id="playerScoreHeader">You</h4>
+        <h4>Computer</h4>
+        <span id="playerScore"></span>
+        <span id="computerScore"></span>
+      </div>
+      <div class="levelSelect">
+        <!--select limit to play to -->
+
+        <label class="level_label" for="level">Winning score to play to:</label>
+        <select class="level">
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+
+  </section>
+
+
+  <section id="game-icons">
+
+    <div>
+      <img id="rock" class="icon" src="./images/icon-rock.svg" alt="hands making fist image">
+    </div>
+
+
+    <div>
+      <img id="scissors" class="icon" src="./images/icon-scissors.svg" alt="hands making scissorssign">
+    </div>
+
+    <div>
+      <img id="paper" class="icon" src="./images/icon-paper.svg" alt=" hands making paper sign">
+    </div>
+
+    <div>
+      <img id="lizard" class="icon" src="./images/icon-lizard.svg" alt="lizard image">
+    </div>
+
+    <div>
+      <img id="spock" class="icon" src="./images/icon-spock.svg" alt="hands making spock sign">
+    </div>
+
+  </section>
+
+  <section id="chosen">
+    <div class="wrapper">
+      <div class="player">
+        <h3 class="playerPick">You Chose</h3>
+        <span id="playerChoice"></span>
+      </div>
+      <div class="result">
+        <span id="result"></span>
+        <button id="again">
+          Next turn</button>
+        <button id="new">
+          New Game</button>
+      </div>
+      <div class="computer">
+        <h3 class="compPick">Computer Chose</h3>
+        <span id="computerChoice"></span>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- The Rules Pop Up Modal -->
+  <div id="rulesModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <p>The diagram below shows which action beats which</p>
+      <img src="images/image-rules-bonus.svg" alt="image showing which action beats which other action">
+    </div>
+  </div>
+
+  <footer id="footer">
+    <div class="rules">
+      <button id="rulesButton">Rules</button>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
