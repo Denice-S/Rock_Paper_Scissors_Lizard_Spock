@@ -149,8 +149,8 @@ text-align:center;
     text-align:center; 
     margin:2em;
     border-radius:50%;
-    width:150px;
-    height:150px;
+    max-width:9em;
+    max-height:9em;
 }
 
 #game-icons img{
@@ -349,3 +349,139 @@ color:var(--white);
 color:var(--white);
 }
 
+ @media only screen and (max-width: 37.5em) {
+
+.score-panel{
+width:100%;
+flex-direction:column;
+margin:1em;
+font-size:1.3em;
+}
+.actions{
+width:100%;
+text-align:center;
+border: 0.1em solid var(--white);
+}
+
+.level {
+width: 25%;
+  max-width: 25%; 
+
+}
+
+.score{
+width:100%;
+margin:0.5em;
+}
+.score h3{
+margin:0.5em;
+text-align:center;
+padding:0;
+}
+.scoreResults{
+width:100%;
+}
+#playerScoreHeader{
+text-align:center;
+}
+#playerScore {
+text-align:center;
+}
+
+#game-icons{
+flex-wrap:wrap;
+margin:0.1em;
+}
+
+#game-icons div{
+margin:0.5em;
+max-width:7em;
+max-height:7em;
+
+}
+#game icons img{
+padding:1em;
+}
+.wrapper{
+flex-wrap:wrap;
+margin:1em;
+}
+
+.wrapper h3{
+font-size:1em;
+
+}
+.player{
+order:1;
+width:50%;
+
+}
+
+.player img{
+padding:1em;
+margin:0;
+}
+.computer{
+order:2;
+width:50%;
+
+}
+.computer img{
+padding: 1em;
+margin:0;
+}
+
+.result{
+order:3;
+display:flex;
+margin-bottom:0.5em;
+}
+
+#playerChoice {
+width:50%;
+margin:auto;
+}
+#computerChoice {
+width:50%;
+margin:auto;
+}
+.result{
+
+padding:0.01em;
+}
+#result{
+padding:0.2em;
+
+}
+#footer {
+display:flex;
+ position: relative;
+right: 0;
+bottom: 0;
+left: 0;
+padding:0;
+margin:2.5em 1em;
+}
+
+
+.rules{
+order:2;
+width:50%;
+padding-left:0.5em;
+}
+#rulesButton{
+margin:auto;
+padding:0.8em 1.5em;
+}
+
+.attribution{
+order:1;
+width:50%;
+font-size:0.8em;
+align-items:center;
+}
+  
+}
+
+@media only screen and (max-width: 20em) {
+}
