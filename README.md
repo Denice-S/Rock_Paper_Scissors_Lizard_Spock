@@ -11,16 +11,16 @@ You are able to select the winning score to play to on a drop down selection.
 
 Rules:
 
-Paper covers rock
-Rock blunts scissors
-scissors cuts paper
-Scissors decapitates lizard
-Lizard poisons spock
-spock vapourises roick
-paper disproves spock
-lizard eats paper
-spock smashes scissors
-rock crushes lizard
+-Paper covers rock
+-Rock blunts scissors
+-scissors cuts paper
+-Scissors decapitates lizard
+-Lizard poisons spock
+-spock vapourises roick
+-paper disproves spock
+-lizard eats paper
+-spock smashes scissors
+-rock crushes lizard
 
 dont worry thankfully there is a rules pop up to help you.
 
