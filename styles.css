@@ -349,6 +349,17 @@ color:var(--white);
 color:var(--white);
 }
 
+ @media only screen and (max-width: 48em){
+ #game-icons{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.modal-content{
+width:60%
+}
+
+}
  @media only screen and (max-width: 37.5em) {
 
 .score-panel{
@@ -451,13 +462,18 @@ padding:0.01em;
 }
 #result{
 padding:0.2em;
-
+}
+#again{
+margin-top:0.5em;
+}
+#new{
+margin-top:0.5em;
 }
 #footer {
 display:flex;
  position: relative;
 right: 0;
-bottom: 0;
+bottom: 0.5em;;
 left: 0;
 padding:0;
 margin:2.5em 1em;
@@ -468,9 +484,10 @@ margin:2.5em 1em;
 order:2;
 width:50%;
 padding-left:0.5em;
+
 }
 #rulesButton{
-margin:auto;
+margin:1em 2em;
 padding:0.8em 1.5em;
 }
 
@@ -480,8 +497,37 @@ width:50%;
 font-size:0.8em;
 align-items:center;
 }
+
+.modal-content {
+width:50%;
+}
+
+.modal-content img{
+max-width:100%;
+max-height:100%;
+}
   
 }
 
-@media only screen and (max-width: 20em) {
+@media only screen and (max-width: 21em) {
+
+.wrapper h3{
+font-size: 0.8em;
+}
+
+#playerChoice img{
+width:5em;
+height:5em;
+padding:0.5em;
+margin:0.1em;
+
+}
+#computerChoice img{
+width:5em;
+height:5em;
+padding:0.5em;
+margin:0.1em;
+
+}
+
 }

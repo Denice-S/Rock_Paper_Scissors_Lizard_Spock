@@ -101,13 +101,15 @@ function winner() {
         console.log("player wins game")
         playAgain.style.display="none";
         newGame.style.display="block";
-        pscore.innerHTML=`WINNER! score: ${playerScore}`;
+        pscore.innerHTML=`WINNER!
+         score: ${playerScore}`;
         pscore.classList.add("green");
         cscore.classList.add("red");
     } else if (computerScore==winningScore) {
         playAgain.style.display="none";
         newGame.style.display="block";
-        cscore.innerHTML=` WINNER!score: ${computerScore}`;
+        cscore.innerHTML=` WINNER!
+        score: ${computerScore}`;
         cscore.classList.add("green");
         pscore.classList.add("red");
         console.log("Computer wins game");
