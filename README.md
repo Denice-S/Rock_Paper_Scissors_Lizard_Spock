@@ -26,4 +26,4 @@ dont worry thankfully there is a rules pop up to help you.
 
 
 
-This was originally a challenge from frontendmentor (https://www.frontendmentor.io/) , you can find the original challenge here. Credit goes to front end mentor for the images used in this project.  I have changed their breif and made it my own, by adding a score to play to and a different layout.
+This was originally a challenge from [Frontendmentor ](https://www.frontendmentor.io/) , you can find the original challenge here. Credit goes to front end mentor for the images used in this project.  I have changed their breif and made it my own, by adding a score to play to and a different layout.
