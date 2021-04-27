@@ -1,4 +1,29 @@
 # Rock_Paper_Scissors_Lizard_Spock
-A rock paper scissors lizard spock game
+A rock paper scissors lizard spock game, coded using HTML,CSS and JavaScript.
 
-This is currently a work in progress, it has been done to desktop but needs adjusting for mobile
+The premise of the game:
+
+You are playing against the computer.
+You and the computer take turns picking an action (Rock,Paper,Scissors,Lizard,Spock). The computer will pick one randomly.
+If you win you get a point, if the computer wins they get a point. If it is a draw and you both choose the same icon no one gets any points.
+First person to reach the winning score is the winner
+You are able to select the winning score to play to on a drop down selection.
+
+Rules:
+
+- Paper covers rock
+- Rock blunts scissors
+- Scissors cuts paper
+- Scissors decapitates lizard
+- Lizard poisons spock
+- Spock vapourises roick
+- Paper disproves spock
+- lizard eats paper
+- Spock smashes scissors
+- Rock crushes lizard
+
+dont worry thankfully there is a rules pop up to help you.
+
+
+
+This was originally a challenge from [Frontendmentor ](https://www.frontendmentor.io/) , you can find the original challenge here. Credit goes to front end mentor for the images used in this project.  I have changed their breif and made it my own, by adding a score to play to and a different layout.
