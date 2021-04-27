@@ -4,7 +4,7 @@ A rock paper scissors lizard spock game, coded using HTML,CSS and JavaScript.
 The premise of the game:
 
 You are playing against the computer.
-You and the computer take turns picking an action (Rock,Paper,Scissors,Lizard,Spock). The computer will pick on randomly.
+You and the computer take turns picking an action (Rock,Paper,Scissors,Lizard,Spock). The computer will pick one randomly.
 If you win you get a point, if the computer wins they get a point. If it is a draw and you both choose the same icon no one gets any points.
 First person to reach the winning score is the winner
 You are able to select the winning score to play to on a drop down selection.
