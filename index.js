@@ -39,8 +39,8 @@ function addClickListeners() {
     })
     for (let icon of icons) {
         icon.addEventListener("click", (e) => {
-            console.log(icon.id)
-            userChoice=icon.id;
+            console.log(icon.classList[1])
+            userChoice=icon.classList[1];
             showChoices();
             compare();
         });
@@ -51,17 +51,17 @@ function addClickListeners() {
 function showChoices() {
     chosen.style.display="block";
     icons.forEach(icon => {
-        if (icon.id==userChoice&&icon.id==compChoice) {
+        if (icon.classList[1]==userChoice&&icon.classList[1]==compChoice) {
             let drawClone=icon.cloneNode(true);
             let playerDraw=icon.cloneNode(true)
             playerChoice.appendChild(playerDraw);
             computerChoice.appendChild(drawClone);
             icon.style.display="none"
-        } else if (icon.id==userChoice) {
+        } else if (icon.classList[1]==userChoice) {
             let playerClone=icon.cloneNode(true)
             playerChoice.appendChild(playerClone);
             icon.style.display="none"
-        } else if (icon.id==compChoice) {
+        } else if (icon.classList[1]==compChoice) {
             let compClone=icon.cloneNode(true);
             computerChoice.appendChild(compClone);
             icon.style.display="none"

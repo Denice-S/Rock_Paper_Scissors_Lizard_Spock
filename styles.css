@@ -161,27 +161,27 @@ max-height:100%;
 
 }
 
-#scissors{
+.scissors{
 
 border:1em solid var(--Scissors);
 }
 
-#rock{
+.rock{
 
 border:1.2em solid var(--Rock);
 }
 
-#paper{
+.paper{
 
 border:1em solid var(--Paper);
 }
 
-#lizard{
+.lizard{
 
 border:1em solid var(--Lizard) ;
 }
 
-#spock{
+.spock{
 
 border:1em solid var(--spock);
 }
